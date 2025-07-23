@@ -209,6 +209,27 @@ body {
     text-align: center;
     margin-left: 0;
   }
+  .phones {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .phone1 {
+    margin-left: 0;
+    max-width: 90%;
+    margin-top: 20px;
+  }
+
+  .phone12, .phone13, .phone14, .phone15 {
+    margin-left: 10px;
+    max-width: 90%;
+    margin-top: 20px;
+  }
+
+  .p5, .p6, .p7, .p8 {
+    margin-left: 0;
+    text-align: center;
+  }
 }
 @media (max-width: 1024px) {
   .p3 {
